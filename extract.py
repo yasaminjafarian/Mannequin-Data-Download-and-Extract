@@ -50,5 +50,3 @@ for f in range(0,num_of_frames):
             else:
                 print("couldn't write the image on TS %3d"%(TS))
 
-#
-#
