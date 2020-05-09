@@ -12,7 +12,7 @@ This is a python implementation of downloading and extracting the videos for man
 2. Install pytube3 for python3:
 - $ pip install pytube3
 
-3. make a folder code in the extracted directory each folder and put the download.py there (e.g. ~/MannequinChallenge/train/code/download.py)
+3. make a folder code in the extracted directory each folder (train,test, and validation) and put the download.py there (e.g. ~/MannequinChallenge/train/code/download.py)
 
 4. run the download.py:
 - $ python download.py
