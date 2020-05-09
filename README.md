@@ -1,4 +1,4 @@
-# Mannequin-Data-Download
+# Mannequin-Data-Download-and-Extract
 
 This is a python implementation of downloading and extracting the videos for mannequin paper "[Learning the Depths of
 Moving People by Watching Frozen People](https://mannequin-depth.github.io/)."
