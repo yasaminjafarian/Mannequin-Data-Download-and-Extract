@@ -2,7 +2,7 @@
 
 This is a python implementation of downloading the videos for mannequin paper (https://arxiv.org/pdf/1904.11111.pdf)
 
-## Download txt files
+## download txt files
 1. download the mannequin dataset from here (https://google.github.io/mannequinchallenge/www/download.html)
 2. extract the files in a directory (e.g. ~/MannequinChallenge)
 
