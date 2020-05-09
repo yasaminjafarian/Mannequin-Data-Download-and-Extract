@@ -28,7 +28,5 @@ each folder in the data directory represent each txt file.
 
 3. again for each dataset (train,test, or validation) put the extract.py in the code folder (e.g. ~/MannequinChallenge/train/code/extract.py)
 
-4. change the variable "num_of_frames" in line 25 to the number of folders in data directory (e.g. ~/MannequinChallenge/train/data/)
-
-5. run extract.py:
+4. run extract.py:
 - $ python extract.py
