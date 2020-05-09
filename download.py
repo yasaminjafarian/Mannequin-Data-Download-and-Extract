@@ -35,6 +35,9 @@ def write_frames_data_in_file(in_filename, out_filename):
 files_path = '../'
 out_path = '../data/'
 
+if not os.path.isdir(out_path):
+    os.mkdir(out_path)
+        
 txtfiles = [f for f in listdir(files_path) if isfile(join(files_path, f))]
 
 for f in range(0,len(txtfiles)):
