@@ -22,10 +22,16 @@ def get_time_steps(frame_file):
 
     return time_steps_milSec, num_of_time_steps
 
-num_of_frames = 750
+def get_the_number_of_folders(data_path):
+    return len(os.listdir(data_path))
+
+data_path = '../data/'
+
+num_of_frames = get_the_number_of_folders(data_path)
+
 for f in range(0,num_of_frames):
     print('processing frame number %5d from %5d files' % (f, num_of_frames))
-    path = '../data/'+str(f)+'/'
+    path = data_path+str(f)+'/'
     files = get_mp4_filenames(path)
     if len(files) > 0:
         frames_dir = path + 'frames/'
@@ -44,5 +50,5 @@ for f in range(0,num_of_frames):
             else:
                 print("couldn't write the image on TS %3d"%(TS))
 
-
-
+#
+#
