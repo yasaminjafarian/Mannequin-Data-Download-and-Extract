@@ -7,7 +7,7 @@ This is a python implementation of downloading and extracting the videos for man
 2. extract the files in a directory (e.g. ~/MannequinChallenge)
 
 ## download videos
-1. I use pytube3 for downloading the videos. more information at (https://towardsdatascience.com/the-easiest-way-to-download-youtube-videos-using-python-2640958318ab)
+1. I use pytube3 for downloading the videos from youtube. more information at (https://towardsdatascience.com/the-easiest-way-to-download-youtube-videos-using-python-2640958318ab)
 
 2. Install pytube3 for python3:
 - $ pip install pytube3
