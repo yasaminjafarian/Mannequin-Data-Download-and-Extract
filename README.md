@@ -1,6 +1,7 @@
 # Mannequin-Data-Download
 
-This is a python implementation of downloading and extracting the videos for mannequin paper (https://arxiv.org/pdf/1904.11111.pdf)
+This is a python implementation of downloading and extracting the videos for mannequin paper "[Learning the Depths of
+Moving People by Watching Frozen People](https://mannequin-depth.github.io/)."
 
 ## download txt files
 1. download the mannequin dataset from here (https://google.github.io/mannequinchallenge/www/download.html)
